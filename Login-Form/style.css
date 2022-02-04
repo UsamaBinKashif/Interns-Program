@@ -1,0 +1,85 @@
+*::after,
+*::before,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --blueclr: #0B6AB4;
+  --blueclr2:#4189c0;
+}
+
+body {
+  background-color: var(--blueclr2);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container>h5 {
+  color: #ffffff;
+  font-weight: 400;
+
+}
+
+.container>h1{
+  color: #ffffff;
+}
+
+.container>span>i{
+  font-size: 2rem;
+  color: #ffffff;
+}
+h5>a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.input-box{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.6rem;
+  margin-top: 0.6rem;
+  
+
+}
+
+#textInput,#passInput{
+  width: 14rem;
+  padding: 1rem;
+  outline: none;
+
+}
+
+#textInput{
+  border-top-left-radius: 4px;
+  border: none;
+  border-top-right-radius: 4px;
+}
+#passInput{
+  border-bottom-left-radius: 4px;
+  border: none;
+  border-top: 2px solid gray;
+  border-bottom-right-radius: 4px;
+  
+}
+.loginBtn{
+  border-radius: 6px;
+  border: none;
+  padding: 0.7rem 0.5rem;
+  width: 14rem;
+  background-color: var(--blueclr);
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 00.6rem;
+
+  
+}
