@@ -13,3 +13,23 @@
        <td>Completed</td>
       </tr>
   </table>
+
+
+<h1>Leader Board</h1>
+<img src="https://github.com/UsamaBinKashif/Interns-Program/blob/main/accomplishment/leaders.PNG">
+
+<h1>Skills Learned</h1>
+<table>
+<tr>
+      <td>HTML5</td>
+       <td>CSS3</td>
+       <td>Bootstrap 5</td>
+       <td>Javascript ES6</td>
+  <td>Jquerry</td>
+  <td>PHP</td>
+  <td>Wordpress</td>
+      </tr>
+  </table>
+  
+  <h1>Certificate <span><img src="https://github.com/UsamaBinKashif/Interns-Program/blob/main/accomplishment/certificate1.jpg"></span></h1>
+  
